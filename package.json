@@ -1,0 +1,12 @@
+{
+  "name": "standalone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass ./index.scss index.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+  
+}

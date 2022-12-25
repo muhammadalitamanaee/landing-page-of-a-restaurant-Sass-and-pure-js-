@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 a {
+  color: #da291c;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 2rem;
+  width: 70%;
+  margin-right: 5rem;
+}
+.menu .menu-card {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f8ff;
+}
+.menu .menu-card .food-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.menu .menu-card .food-detail-container .pic img {
+  width: 10rem;
+  height: 10rem;
+}
+.menu .menu-card .food-detail-container .text-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+}
+.menu .menu-card .food-detail-container .text-area .counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .menu-card .food-detail-container .text-area .counter .add {
+  width: 4rem;
+  background-color: #9e1010;
+}
+.menu .menu-card .food-detail-container .text-area .counter .remove {
+  width: 4rem;
+  background-color: #9e1010;
+}
+
+/*# sourceMappingURL=style.css.map */
